@@ -1,0 +1,57 @@
+major_version: "1"
+minor_version: "0"
+
+default_target_cpu: "x96"
+
+
+toolchain {
+	  toolchain_identifier: "hipify-toolchain"
+	  host_system_name: "unknown-linux-gnu"
+	  target_system_name: "hipping-unknown-hipify"
+	  target_cpu: "x96"
+	  target_libc: "unknown"
+	  compiler: "hipify"
+	  abi_version: "unknown"
+	  abi_libc_version: "unknown"
+}
+
+
+
+default_toolchain {
+		 cpu: "x96"
+		 toolchain_identifier: "hipify-toolchain"
+}
+
+
+# tool_path {
+#       name: "gcc"
+#       path: "hipify.sh"
+#   }
+#   tool_path {
+#       name: "ld"
+#       path: "hipify.sh"
+#   }
+#   tool_path {
+#       name: "ar"
+#       path: "/bin/false"
+#   }
+#   tool_path {
+#       name: "cpp"
+#       path: "/bin/false"
+#   }
+#   tool_path {
+#       name: "gcov"
+#       path: "/bin/false"
+#   }
+#   tool_path {
+#       name: "nm"
+#       path: "/bin/false"
+#   }
+#   tool_path {
+#       name: "objdump"
+#       path: "/bin/false"
+#   }
+#   tool_path {
+#       name: "strip"
+#       path: "/bin/false"
+#   }
